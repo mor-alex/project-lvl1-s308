@@ -1,6 +1,6 @@
 {
   "name": "moralex",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Brain games",
   "main": "dist/index.js",
   "files": [
@@ -31,5 +31,7 @@
     "babel-preset-stage-0": "*"
   },
   "homepage": "https://github.com/mor-alex/project-lvl1-s308#readme",
-  "dependencies": {}
+  "dependencies": {
+    "readline-sync": "^1.4.9"
+  }
 }
