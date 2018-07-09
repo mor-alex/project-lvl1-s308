@@ -2,7 +2,9 @@
   "name": "moralex",
   "version": "1.0.1",
   "description": "Brain games",
-  "main": "dist/index.js",
+  "bin": {
+    "brain-games": "dist/bin/brain-games.js"
+  },
   "files": [
     "dist"
   ],
@@ -13,30 +15,35 @@
     "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
     "prepublishOnly": "npm run build"
   },
-  "bin": {
-    "brain-games": "dist/bin/brain-games.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mor-alex/project-lvl1-s308.git"
   },
-  "author": "mor-alex",
+  "author": "Alexey Morozov",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mor-alex/project-lvl1-s308/issues"
   },
+  "homepage": "https://github.com/mor-alex/project-lvl1-s308#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.9"
+  },
   "devDependencies": {
     "babel-cli": "*",
     "babel-core": "*",
-    "babel-preset-env": "*",
-    "babel-preset-stage-0": "*"
-  },
-  "homepage": "https://github.com/mor-alex/project-lvl1-s308#readme",
-  "dependencies": {
     "babel-eslint": "^8.2.5",
-    "eslint": "^5.1.0",
+    "babel-preset-env": "*",
+    "babel-preset-stage-0": "*",
+    "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^13.0.0",
-    "eslint-plugin-import": "^2.13.0",
-    "readline-sync": "^1.4.9"
-  }
+    "eslint-plugin-import": "^2.13.0"
+  },
+  "keywords": [
+    "hexlet",
+    "project",
+    "brain-games",
+    "console",
+    "javascript",
+    "node"
+  ]
 }
