@@ -1,7 +1,5 @@
 # Brain-Games
 
-<a href="https://codeclimate.com/github/mor-alex/project-lvl1-s308"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
+[![Build Status](https://travis-ci.org/mor-alex/project-lvl1-s308.svg?branch=master)](https://travis-ci.org/mor-alex/project-lvl1-s308>)
 
-<a href="https://codeclimate.com/github/codeclimate/codeclimate/test_coverage"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage" /></a>
-
-<a href="https://travis-ci.org/mor-alex/project-lvl1-s308"><img src="https://travis-ci.org/mor-alex/project-lvl1-s308.svg?branch=master" /></a>
+[![Code Climate](https://codeclimate.com/github/codeclimate/codeclimate/badges/gpa.svg)](https://codeclimate.com/github/mor-alex/project-lvl1-s308)
