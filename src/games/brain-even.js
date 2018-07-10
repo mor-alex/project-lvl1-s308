@@ -2,28 +2,28 @@ import readlineSync from 'readline-sync';
 
 const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 
+const isEven = num => num % 2 === 0;
+
 export default () => {
   console.log('Welcome to the Brain Games!\n');
   console.log('Answer "yes" if number odd otherwise answer "no".\n');
-  const getName = readlineSync.question('May I have your name? ');
-  console.log(`Hello, ${getName}!\n`);
+  const userName = readlineSync.question('May I have your name? ');
+  console.log(`Hello, ${userName}!\n`);
 
-  const question = (number, acc) => {
-    if (acc === 3) {
-      return console.log(`Congratulations, ${getName}!\n`);
-    }
+  const runEvenGame = (acc, numOfSucAttempts) => {
+    const number = getRandomInt(1, 100);
     console.log('Question: ', number);
-    const isEven = num => (num % 2 === 0 ? 'yes' : 'no');
-    const correctAnswer = isEven(number);
+    const correctAnswer = isEven(number) ? 'yes' : 'no';
     const userAnswer = readlineSync.question('Your answer: ');
     if (userAnswer === correctAnswer) {
-      acc += 1;
       console.log('Correct!');
-      return question(getRandomInt(1, 100), acc);
+    } if (acc === numOfSucAttempts) {
+      return console.log(`Congratulations, ${userName}!\n`);
     } if (userAnswer !== correctAnswer) {
       console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${correctAnswer}.`);
-      return console.log(`Let's try again, ${getName}!\n`);
+      return console.log(`Let's try again, ${userName}!\n`);
     }
+    return runEvenGame(acc + 1, numOfSucAttempts);
   };
-  question(getRandomInt(1, 100), 0);
+  runEvenGame(1, 3);
 };
