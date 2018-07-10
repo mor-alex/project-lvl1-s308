@@ -4,6 +4,10 @@ const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) +
 
 const isEven = num => num % 2 === 0;
 
+const happyend = name => console.log(`Congratulations, ${name}!\n`);
+
+const badend = name => console.log(`Let's try again, ${name}!\n`);
+
 export default () => {
   console.log('Welcome to the Brain Games!\n');
   console.log('Answer "yes" if number odd otherwise answer "no".\n');
@@ -18,10 +22,10 @@ export default () => {
     if (userAnswer === correctAnswer) { console.log('Correct!'); }
     if (userAnswer !== correctAnswer) {
       console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${correctAnswer}.`);
-      return console.log(`Let's try again, ${userName}!\n`);
+      return badend;
     }
     if (acc === numOfSucAttempts) {
-      return console.log(`Congratulations, ${userName}!\n`);
+      return happyend(userName);
     }
     return runEvenGame(acc + 1, numOfSucAttempts);
   };
