@@ -18,10 +18,10 @@ export default () => {
     if (userAnswer === correctAnswer) { console.log('Correct!'); }
     if (userAnswer !== correctAnswer) {
       console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${correctAnswer}.`);
-      console.log(`Let's try again, ${userName}!\n`);
+      return console.log(`Let's try again, ${userName}!\n`);
     }
     if (acc === numOfSucAttempts) {
-      console.log(`Congratulations, ${userName}!\n`);
+      return console.log(`Congratulations, ${userName}!\n`);
     }
     return runEvenGame(acc + 1, numOfSucAttempts);
   };
