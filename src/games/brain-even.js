@@ -15,12 +15,12 @@ export default () => {
     console.log('Question: ', number);
     const correctAnswer = isEven(number) ? 'yes' : 'no';
     const userAnswer = readlineSync.question('Your answer: ');
-    if (userAnswer === correctAnswer) {
-      console.log('Correct!');
-    } if (userAnswer !== correctAnswer) {
+    if (userAnswer === correctAnswer) { console.log('Correct!'); }
+    if (userAnswer !== correctAnswer) {
       console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${correctAnswer}.`);
       return console.log(`Let's try again, ${userName}!\n`);
-    } if (acc === numOfSucAttempts) {
+    }
+    if (acc === numOfSucAttempts) {
       return console.log(`Congratulations, ${userName}!\n`);
     }
     return runEvenGame(acc + 1, numOfSucAttempts);
