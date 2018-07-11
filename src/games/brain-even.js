@@ -5,7 +5,7 @@ const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) +
 const isEven = num => num % 2 === 0;
 
 export default () => {
-  console.log('Welcome to the Brain Games!\n');
+  console.log('Welcome to the Brain Games!');
   console.log('Answer "yes" if number odd otherwise answer "no".\n');
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!\n`);
@@ -19,8 +19,9 @@ export default () => {
     console.log('Question: ', number);
     const correctAnswer = isEven(number) ? 'yes' : 'no';
     const userAnswer = readlineSync.question('Your answer: ');
-    if (userAnswer === correctAnswer) { console.log('Correct!'); }
-    if (userAnswer !== correctAnswer) {
+    if (userAnswer === correctAnswer) {
+      console.log('Correct!');
+    } if (userAnswer !== correctAnswer) {
       console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${correctAnswer}.`);
       console.log(`Let's try again, ${userName}!\n`);
       return;
