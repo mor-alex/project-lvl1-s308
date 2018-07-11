@@ -10,7 +10,11 @@ export default () => {
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!\n`);
 
-  const runEvenGame = (numOfSucAttempts, acc = 1) => {
+  const runEvenGame = (numOfSucAttempts, acc) => {
+    if (acc === numOfSucAttempts) {
+      console.log(`Congratulations, ${userName}!\n`);
+      return;
+    }
     const number = getRandomInt(1, 100);
     console.log('Question: ', number);
     const correctAnswer = isEven(number) ? 'yes' : 'no';
@@ -21,11 +25,7 @@ export default () => {
       console.log(`Let's try again, ${userName}!\n`);
       return;
     }
-    if (acc === numOfSucAttempts) {
-      console.log(`Congratulations, ${userName}!\n`);
-      return;
-    }
     runEvenGame(numOfSucAttempts, acc + 1);
   };
-  runEvenGame(3);
+  runEvenGame(3, 0);
 };
