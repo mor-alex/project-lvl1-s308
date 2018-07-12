@@ -1,13 +1,12 @@
-import readlineSync from 'readline-sync';
-
-const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+import { cons } from 'hexlet-pairs';
+import { getRandomInt, flow } from '..';
 
 const getRandomOperator = () => {
   const collectionOfOperators = ['+', '-', '*'];
   return collectionOfOperators[getRandomInt(0, 2)];
 };
 
-const calc = (num1, operator, num2) => {
+const calculate = (num1, operator, num2) => {
   let result = 0;
   if (operator === '+') {
     result = num1 + num2;
@@ -19,31 +18,16 @@ const calc = (num1, operator, num2) => {
   return result;
 };
 
-export default () => {
-  console.log('Welcome to the Brain Games!');
-  console.log('What is the result of the expression?\n');
-  const userName = readlineSync.question('May I have your name? ');
-  console.log(`Hello, ${userName}!\n`);
+const description = 'What is the result of the expression?\n';
 
-  const runCalcGame = (numOfSucAttempts, acc) => {
-    if (acc === numOfSucAttempts) {
-      console.log(`Congratulations, ${userName}!\n`);
-      return;
-    }
-    const number1 = getRandomInt(1, 100);
-    const number2 = getRandomInt(1, 100);
-    const operator = getRandomOperator();
-    console.log('Question: ', number1, ' ', operator, '', number2);
-    const correctAnswer = String(calc(number1, operator, number2));
-    const userAnswer = readlineSync.question('Your answer: ');
-    if (userAnswer === correctAnswer) {
-      console.log('Correct!');
-    } if (userAnswer !== correctAnswer) {
-      console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${correctAnswer}.`);
-      console.log(`Let's try again, ${userName}!\n`);
-      return;
-    }
-    runCalcGame(numOfSucAttempts, acc + 1);
-  };
-  runCalcGame(3, 0);
+const distinctiveFeatures = () => {
+  const number1 = getRandomInt(0, 100);
+  const number2 = getRandomInt(0, 100);
+  const operator = getRandomOperator();
+
+  const question = `${number1} ${operator} ${number2}`;
+  const correctAnswer = String(calculate(number1, operator, number2));
+  return cons(question, correctAnswer);
 };
+
+export default () => flow(distinctiveFeatures, description);

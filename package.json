@@ -1,6 +1,6 @@
 {
   "name": "moralex-brain-games",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "Brain games",
   "bin": {
     "brain-games": "dist/bin/brain-games.js",
@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/mor-alex/project-lvl1-s308#readme",
   "dependencies": {
+    "hexlet-pairs": "^1.0.8",
     "readline-sync": "^1.4.9"
   },
   "devDependencies": {
