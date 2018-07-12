@@ -6,7 +6,7 @@ const getRandomOperator = () => {
   return collectionOfOperators[getRandomInt(0, 2)];
 };
 
-const calculate = (num1, operator, num2) => {
+const calculateOperation = (num1, operator, num2) => {
   let result = 0;
   if (operator === '+') {
     result = num1 + num2;
@@ -26,7 +26,7 @@ const distinctiveFeatures = () => {
   const operator = getRandomOperator();
 
   const question = `${number1} ${operator} ${number2}`;
-  const correctAnswer = String(calculate(number1, operator, number2));
+  const correctAnswer = String(calculateOperation(number1, operator, number2));
   return cons(question, correctAnswer);
 };
 
