@@ -4,7 +4,7 @@ const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) +
 
 const getRandomOperator = () => {
   const collectionOfOperators = ['+', '-', '*'];
-  return collectionOfOperators[getRandomInt(1, 3)];
+  return collectionOfOperators[getRandomInt(0, 2)];
 };
 
 const calc = (num1, operator, num2) => {
