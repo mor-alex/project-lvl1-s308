@@ -7,10 +7,10 @@ export default (features, rules) => {
   console.log(rules);
   const userName = getPlayerName();
 
-  const countAttemptsToEnd = 3;
+  const AttemptsToEnd = 3;
   let countOfAttempts = 0;
 
-  while (countOfAttempts < countAttemptsToEnd) {
+  while (countOfAttempts < AttemptsToEnd) {
     const parameters = features();
     const question = car(parameters);
     const correctAnswer = cdr(parameters);
