@@ -1,9 +1,6 @@
 import { cons } from 'hexlet-pairs';
-import { getRandomInt, flow } from '..';
-
-const getRemain = (x, y) => x % y;
-
-const getGreatComDiv = (a, b) => ((b === 0) ? a : getGreatComDiv(b, getRemain(a, b)));
+import flow from '../flow';
+import { getRandomInt, getGreatComDiv } from '../utils';
 
 const description = 'Find the greatest common divisor of given numbers.\n';
 

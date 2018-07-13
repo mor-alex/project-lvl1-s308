@@ -1,7 +1,6 @@
 import { cons } from 'hexlet-pairs';
-import { getRandomInt, flow } from '..';
-
-const isEven = num => num % 2 === 0;
+import flow from '../flow';
+import { getRandomInt, isEven } from '../utils';
 
 const description = 'Answer "yes" if number even otherwise answer "no".\n';
 

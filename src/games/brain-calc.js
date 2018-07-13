@@ -1,22 +1,6 @@
 import { cons } from 'hexlet-pairs';
-import { getRandomInt, flow } from '..';
-
-const getRandomOperator = () => {
-  const collectionOfOperators = ['+', '-', '*'];
-  return collectionOfOperators[getRandomInt(0, 2)];
-};
-
-const calculateOperation = (num1, operator, num2) => {
-  let result = 0;
-  if (operator === '+') {
-    result = num1 + num2;
-  } if (operator === '-') {
-    result = num1 - num2;
-  } if (operator === '*') {
-    result = num1 * num2;
-  }
-  return result;
-};
+import flow from '../flow';
+import { getRandomInt, getRandomOperator, calculateOperation } from '../utils';
 
 const description = 'What is the result of the expression?\n';
 
