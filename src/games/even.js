@@ -8,9 +8,7 @@ const description = 'Answer "yes" if number even otherwise answer "no".';
 
 const distinctiveFeatures = () => {
   const number = getRandomInt(1, 100);
-  const question = `${number}`;
-  const correctAnswer = isEven(number) ? 'yes' : 'no';
-  return cons(question, correctAnswer);
+  return cons(`${number}`, isEven(number) ? 'yes' : 'no');
 };
 
 export default () => flow(distinctiveFeatures, description);

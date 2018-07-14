@@ -12,16 +12,16 @@ const balanceArr = (arr) => {
 
   let isGoodEnough = false;
   while (!isGoodEnough) {
-    let indOfMinValue = 0;
-    let indOfMaxValue = 0;
+    let indOfMin = 0;
+    let indOfMax = 0;
     for (let i = 0; i < array.length; i += 1) {
-      if (array[i] < array[indOfMinValue]) { indOfMinValue = i; }
-      if (array[i] > array[indOfMaxValue]) { indOfMaxValue = i; }
+      if (array[i] < array[indOfMin]) { indOfMin = i; }
+      if (array[i] > array[indOfMax]) { indOfMax = i; }
     }
-    if (Math.abs(array[indOfMaxValue] - array[indOfMinValue]) <= 1) { isGoodEnough = true; }
+    if (Math.abs(array[indOfMax] - array[indOfMin]) <= 1) { isGoodEnough = true; }
     if (!isGoodEnough) {
-      array[indOfMinValue] += 1;
-      array[indOfMaxValue] -= 1;
+      array[indOfMin] += 1;
+      array[indOfMax] -= 1;
     }
   }
   return String(array.sort().join(''));
