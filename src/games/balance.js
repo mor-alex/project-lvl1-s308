@@ -7,8 +7,8 @@ const getArrFromNum = (numeral) => {
   return arr;
 };
 
-const balanceNumber = (num) => {
-  const array = getArrFromNum(num);
+const balanceArr = (arr) => {
+  const array = arr;
 
   let isGoodEnough = false;
   while (!isGoodEnough) {
@@ -32,7 +32,7 @@ const description = 'Balance the given number.';
 const distinctiveFeatures = () => {
   const number = getRandomInt(100, 10000);
   const question = `${number}`;
-  const correctAnswer = balanceNumber(number);
+  const correctAnswer = balanceArr(getArrFromNum(number));
   return cons(question, correctAnswer);
 };
 
