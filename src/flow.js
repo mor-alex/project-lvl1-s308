@@ -11,9 +11,9 @@ const getPlayerName = () => {
 
 const attempts = 3;
 
-export default (features, rules) => {
+export default (features, description) => {
   greeting();
-  console.log(rules);
+  console.log(description);
   const userName = getPlayerName();
 
   for (let countAttempts = 0; countAttempts < attempts; countAttempts += 1) {
