@@ -15,7 +15,7 @@ const isPrime = (num) => {
   return true;
 };
 
-const description = 'Answer "yes" if number is prime otherwise answer "no".';
+const description = 'Is this number prime?';
 
 const distinctiveFeatures = () => {
   const number = getRandomInt(0, 100);
