@@ -9,12 +9,12 @@ const getPlayerName = () => {
   return playerName;
 };
 
+const attempts = 3;
+
 export default (features, rules) => {
   greeting();
   console.log(rules);
   const userName = getPlayerName();
-
-  const attempts = 3;
 
   for (let countAttempts = 0; countAttempts < attempts; countAttempts += 1) {
     const parameters = features();
