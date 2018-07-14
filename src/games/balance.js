@@ -10,16 +10,16 @@ const getArrFromNum = (numeral) => {
 const balance = (num) => {
   const array = getArrFromNum(num);
 
-  let goodEnough = false;
-  while (goodEnough === false) {
+  let isGoodEnough = false;
+  while (!isGoodEnough) {
     let indOfMinValue = 0;
     let indOfMaxValue = 0;
     for (let i = 0; i < array.length; i += 1) {
       if (array[i] < array[indOfMinValue]) { indOfMinValue = i; }
       if (array[i] > array[indOfMaxValue]) { indOfMaxValue = i; }
     }
-    if (Math.abs(array[indOfMaxValue] - array[indOfMinValue]) <= 1) { goodEnough = true; }
-    if (goodEnough === false) {
+    if (Math.abs(array[indOfMaxValue] - array[indOfMinValue]) <= 1) { isGoodEnough = true; }
+    if (!isGoodEnough) {
       array[indOfMinValue] += 1;
       array[indOfMaxValue] -= 1;
     }
@@ -27,7 +27,7 @@ const balance = (num) => {
   return String(array.sort().join(''));
 };
 
-const description = 'Balance the given number.\n';
+const description = 'Balance the given number.';
 
 const distinctiveFeatures = () => {
   const number = getRandomInt(100, 10000);

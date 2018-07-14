@@ -6,7 +6,7 @@ const getRemain = (x, y) => x % y;
 
 const getGreatComDiv = (a, b) => ((b === 0) ? a : getGreatComDiv(b, getRemain(a, b)));
 
-const description = 'Find the greatest common divisor of given numbers.\n';
+const description = 'Find the greatest common divisor of given numbers.';
 
 const distinctiveFeatures = () => {
   const number1 = getRandomInt(0, 100);

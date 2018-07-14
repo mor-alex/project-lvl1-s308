@@ -14,7 +14,7 @@ const calculateOperation = (num1, operation, num2) => {
   }
 };
 
-const description = 'What is the result of the expression?\n';
+const description = 'What is the result of the expression?';
 
 const distinctiveFeatures = () => {
   const number1 = getRandomInt(0, 100);
