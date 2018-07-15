@@ -16,36 +16,30 @@
 
 Is even number?  
 Determine whether the number is even or not  
-Launch
-
+Launch  
     brain-even
 
 Calculate operation  
 Calculate the expression of two numbers  
-Launch
-
+Launch  
     brain-calc
 
 Find great common divisor  
 Calculate the great common divisor of two numbers  
-Launch
-
+Launch  
     brain-gcd
 
 Balance number  
 Balance the number  
-Launch
-
+Launch  
     brain-balance
 
 Progression game  
 Find out the missed element of progression  
-Launch
-
+Launch  
     brain-progression
 
 Is prime number?  
 Determine whether the number is prime or not  
-Launch
-
+Launch  
     brain-prime
