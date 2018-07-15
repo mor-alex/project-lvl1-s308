@@ -8,12 +8,12 @@ const getArrFromNum = (numeral) => {
 };
 
 const balanceArr = (arr) => {
-  const array = arr.sort();
+  let array = arr.sort();
 
-  if (Math.abs(array[arr.length - 1] - array[0]) > 1) {
+  while (Math.abs(array[arr.length - 1] - array[0]) > 1) {
     array[0] += 1;
     array[arr.length - 1] -= 1;
-    return balanceArr(array);
+    array = array.sort();
   }
   return String(array.sort().join(''));
 };
