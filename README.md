@@ -10,23 +10,29 @@ Before need install [node.js with npm](https://nodejs.org/en/download/)!
 
 ### Install games ###
 `npm i -g moralex-brain-games`  
+![Imgur](https://i.imgur.com/CqpwQlw.gifv)
 ### Includes: ###  
 #### Is even number? ####  
 Determine whether the number is even  
-Type in the console: `brain-even`  
+Type in the console: `brain-even`
+![Imgur](https://i.imgur.com/6YQCexM.gifv)  
 #### Calculate operation ####  
 Calculate the expression of two numbers  
 `brain-calc`
-
+![Imgur](https://i.imgur.com/2OcWrjE.gifv)
 #### Find great common divisor ####  
 Calculate the great common divisor of two numbers  
 `brain-gcd`  
+![Imgur](https://i.imgur.com/CXiJsg3.gifv)
 #### Balance number ####  
 Balance the number  
-`brain-balance`  
+`brain-balance`
+![Imgur](https://i.imgur.com/d378zXX.gifv) 
 #### Progression game ####  
 Find out the missed element of progression  
 `brain-progression`  
+![Imgur](https://i.imgur.com/YoY5Nsk.gifv)
 ##### Is prime number? #####  
 Determine whether the number is prime  
 `brain-prime`
+[Imgur](https://i.imgur.com/GPqPg9g.gifv)
