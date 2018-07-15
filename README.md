@@ -10,36 +10,36 @@
 
 ### Install games
 
-<npm i -g moralex-brain-games >
+    npm i -g moralex-brain-games
 
 ### Includes:
 
 Is even number?
 Determine whether the number is even or not
 Launch
-* brain-even
+    * brain-even
 
 Calculate operation
 Calculate the expression of two numbers
 Launch
-* brain-calc
+    * brain-calc
 
 Find great common divisor
 Calculate the great common divisor of two numbers
 Launch
-* brain-gcd
+    * brain-gcd
 
 Balance number
 Balance the number
 Launch
-* brain-balance
+    * brain-balance
 
 Progression game
 Find out the missed element of progression
 Launch
-* brain-progression
+    * brain-progression
 
 Is prime number?
 Determine whether the number is prime or not
 Launch
-* brain-prime
+    * brain-prime
