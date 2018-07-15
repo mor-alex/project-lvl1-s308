@@ -10,29 +10,42 @@ Before need install [node.js with npm](https://nodejs.org/en/download/)!
 
 ### Install games ###
 `npm i -g moralex-brain-games`  
-![](https://i.imgur.com/CqpwQlw.gifv)
+
+![Imgur](https://i.imgur.com/CqpwQlw.gifv)
+
 ### Includes: ###  
 #### Is even number? ####  
 Determine whether the number is even  
 Type in the console: `brain-even`
-![](https://i.imgur.com/6YQCexM.gifv)  
+
+![Imgur](https://i.imgur.com/6YQCexM.gifv)  
+
 #### Calculate operation ####  
 Calculate the expression of two numbers  
 `brain-calc`
-![](https://i.imgur.com/2OcWrjE.gifv)
+
+![Imgur](https://i.imgur.com/2OcWrjE.gifv)
+
 #### Find great common divisor ####  
 Calculate the great common divisor of two numbers  
 `brain-gcd`  
-![](https://i.imgur.com/CXiJsg3.gifv)
+
+![Imgur](https://i.imgur.com/CXiJsg3.gifv)
+
 #### Balance number ####  
 Balance the number  
 `brain-balance`
-![](https://i.imgur.com/d378zXX.gifv) 
+
+![Imgur](https://i.imgur.com/d378zXX.gifv) 
+
 #### Progression game ####  
 Find out the missed element of progression  
 `brain-progression`  
-![](https://i.imgur.com/YoY5Nsk.gifv)
+
+![Imgur](https://i.imgur.com/YoY5Nsk.gifv)
+
 ##### Is prime number? #####  
 Determine whether the number is prime  
 `brain-prime`
-![](https://i.imgur.com/GPqPg9g.gifv)
+
+![Imgur](https://i.imgur.com/GPqPg9g.gifv)
