@@ -11,42 +11,41 @@ Before need install [node.js with npm](https://nodejs.org/en/download/)!
 ### Install games ###
 `npm i -g moralex-brain-games`  
 
-![Imgur](https://i.imgur.com/CqpwQlw.gifv)
+<a href="https://imgur.com/CqpwQlw"><img src="https://i.imgur.com/CqpwQlw.gif" title="source: imgur.com" /></a>
 
 ### Includes: ###  
 #### Is even number? ####  
 Determine whether the number is even  
 Type in the console: `brain-even`
 
-![Imgur](https://i.imgur.com/6YQCexM.gifv)  
+<a href="https://imgur.com/6YQCexM"><img src="https://i.imgur.com/6YQCexM.gif" title="source: imgur.com" /></a>  
 
 #### Calculate operation ####  
 Calculate the expression of two numbers  
 `brain-calc`
 
-![Imgur](https://i.imgur.com/2OcWrjE.gifv)
+<a href="https://imgur.com/2OcWrjE"><img src="https://i.imgur.com/2OcWrjE.gif" title="source: imgur.com" /></a>
 
 #### Find great common divisor ####  
 Calculate the great common divisor of two numbers  
 `brain-gcd`  
 
-![Imgur](https://i.imgur.com/CXiJsg3.gifv)
+<a href="https://imgur.com/CXiJsg3"><img src="https://i.imgur.com/CXiJsg3.gif" title="source: imgur.com" /></a>
 
 #### Balance number ####  
 Balance the number  
 `brain-balance`
 
-[![Imgur](https://i.imgur.com/d378zXX.gifv)] 
-(<a href="https://imgur.com/d378zXX"><img src="https://i.imgur.com/d378zXX.gif" title="source: imgur.com" /></a>)
+<a href="https://imgur.com/d378zXX"><img src="https://i.imgur.com/d378zXX.gif" title="source: imgur.com" /></a>
 
 #### Progression game ####  
 Find out the missed element of progression  
 `brain-progression`  
 
-![Imgur](https://i.imgur.com/YoY5Nsk.gifv)
+<a href="https://imgur.com/YoY5Nsk"><img src="https://i.imgur.com/YoY5Nsk.gif" title="source: imgur.com" /></a>
 
 ##### Is prime number? #####  
 Determine whether the number is prime  
 `brain-prime`
 
-![Imgur](https://i.imgur.com/GPqPg9g.gifv)
+<a href="https://imgur.com/GPqPg9g"><img src="https://i.imgur.com/GPqPg9g.gif" title="source: imgur.com" /></a>
