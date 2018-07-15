@@ -36,7 +36,8 @@ Calculate the great common divisor of two numbers
 Balance the number  
 `brain-balance`
 
-![Imgur](https://i.imgur.com/d378zXX.gifv) 
+[![Imgur](https://i.imgur.com/d378zXX.gifv)] 
+(<a href="https://imgur.com/d378zXX"><img src="https://i.imgur.com/d378zXX.gif" title="source: imgur.com" /></a>)
 
 #### Progression game ####  
 Find out the missed element of progression  
