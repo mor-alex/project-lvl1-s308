@@ -15,31 +15,49 @@
 ### Includes:
 
 Is even number?
+
 Determine whether the number is even or not
+
 Launch
+
     brain-even
 
 Calculate operation
+
 Calculate the expression of two numbers
+
 Launch
+
     brain-calc
 
 Find great common divisor
+
 Calculate the great common divisor of two numbers
+
 Launch
+
     brain-gcd
 
 Balance number
+
 Balance the number
+
 Launch
+
     brain-balance
 
 Progression game
+
 Find out the missed element of progression
+
 Launch
+
     brain-progression
 
 Is prime number?
+
 Determine whether the number is prime or not
+
 Launch
+
     brain-prime
