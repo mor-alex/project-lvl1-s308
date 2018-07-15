@@ -10,15 +10,9 @@ const getArrFromNum = (numeral) => {
 const balanceArr = (arr) => {
   const array = arr.sort();
 
-  let indOfMin = 0;
-  let indOfMax = 0;
-  for (let i = 0; i < array.length; i += 1) {
-    if (array[i] < array[indOfMin]) { indOfMin = i; }
-    if (array[i] > array[indOfMax]) { indOfMax = i; }
-  }
-  if (Math.abs(array[indOfMax] - array[indOfMin]) > 1) {
-    array[indOfMin] += 1;
-    array[indOfMax] -= 1;
+  if (Math.abs(array[arr.length - 1] - array[0]) > 1) {
+    array[0] += 1;
+    array[arr.length - 1] -= 1;
     return balanceArr(array);
   }
   return String(array.sort().join(''));
