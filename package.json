@@ -35,6 +35,7 @@
     "babel-upgrade": "^1.0.1",
     "braces": "^2.3.2",
     "hexlet-pairs": "^1.0.8",
+    "kind-of": "^6.0.3",
     "readline-sync": "^1.4.9"
   },
   "devDependencies": {
