@@ -1,6 +1,6 @@
 {
   "name": "moralex-brain-games",
-  "version": "1.0.32",
+  "version": "1.0.33",
   "description": "Brain games",
   "bin": {
     "brain-games": "dist/bin/brain-games.js",
@@ -32,6 +32,8 @@
   },
   "homepage": "https://github.com/mor-alex/project-lvl1-s308#readme",
   "dependencies": {
+    "babel-upgrade": "^1.0.1",
+    "braces": "^2.3.2",
     "hexlet-pairs": "^1.0.8",
     "readline-sync": "^1.4.9"
   },
@@ -43,7 +45,7 @@
     "babel-preset-stage-0": "*",
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^13.2.0",
-    "eslint-plugin-import": "^2.18.0"
+    "eslint-plugin-import": "^2.20.2"
   },
   "keywords": [
     "hexlet",
