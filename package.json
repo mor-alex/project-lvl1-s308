@@ -1,6 +1,6 @@
 {
   "name": "moralex-brain-games",
-  "version": "1.0.33",
+  "version": "1.0.35",
   "description": "Brain games",
   "bin": {
     "brain-games": "dist/bin/brain-games.js",
@@ -36,17 +36,18 @@
     "braces": "^2.3.2",
     "hexlet-pairs": "^1.0.8",
     "kind-of": "^6.0.3",
+    "lodash": "^4.17.19",
     "readline-sync": "^1.4.9"
   },
   "devDependencies": {
-    "babel-cli": "*",
+    "babel-cli": "^6.26.0",
     "babel-core": "*",
     "babel-eslint": "^8.2.6",
     "babel-preset-env": "*",
     "babel-preset-stage-0": "*",
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^13.2.0",
-    "eslint-plugin-import": "^2.20.2"
+    "eslint-plugin-import": "^2.22.0"
   },
   "keywords": [
     "hexlet",
