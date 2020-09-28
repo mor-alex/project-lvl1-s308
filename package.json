@@ -36,7 +36,7 @@
     "braces": "^2.3.2",
     "hexlet-pairs": "^1.0.8",
     "kind-of": "^6.0.3",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.20",
     "readline-sync": "^1.4.9"
   },
   "devDependencies": {
@@ -47,7 +47,7 @@
     "babel-preset-stage-0": "*",
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^13.2.0",
-    "eslint-plugin-import": "^2.22.0"
+    "eslint-plugin-import": "^2.22.1"
   },
   "keywords": [
     "hexlet",
