@@ -1,6 +1,6 @@
 {
   "name": "moralex-brain-games",
-  "version": "1.0.35",
+  "version": "1.0.36",
   "description": "Brain games",
   "bin": {
     "brain-games": "dist/bin/brain-games.js",
