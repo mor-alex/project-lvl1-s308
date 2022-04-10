@@ -1,6 +1,6 @@
 {
   "name": "moralex-brain-games",
-  "version": "1.0.40",
+  "version": "1.0.41",
   "description": "Brain games",
   "bin": {
     "brain-games": "dist/bin/brain-games.js",
@@ -45,9 +45,9 @@
     "babel-eslint": "^8.2.6",
     "babel-preset-env": "*",
     "babel-preset-stage-0": "*",
-    "eslint": "^8.6.0",
+    "eslint": "^8.13.0",
     "eslint-config-airbnb-base": "^13.2.0",
-    "eslint-plugin-import": "^2.25.4"
+    "eslint-plugin-import": "^2.26.0"
   },
   "keywords": [
     "hexlet",
